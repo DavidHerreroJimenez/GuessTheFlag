@@ -6,7 +6,43 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello World")
+        
+        //        VStack(spacing: 20){
+        //            // max 10 elements
+        //        Text("Hello World")
+        //        Text("Hello World 2")
+        //        }
+//
+//        HStack(spacing: 20){
+//            // max 10 elements
+//            Text ("Hello World 0")
+//            Text("Hello World 1")
+//
+//        }
+        
+//        VStack{
+//            Text("1")
+//            Text("2")
+//            Spacer()
+//        }
+        
+//        ZStack{
+//            Text("Hello world")
+//            Text("This is inside a stack")
+//        }
+        
+        ZStack (alignment: .top){
+                    Text("Hello world")
+                    Text("This is inside a stack")
+                }
+        
+        
+        
+        
+        
+
+        
+        
     }
 }
 
