@@ -14,6 +14,7 @@
 		443D069A236B0177009875D7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 443D0699236B0177009875D7 /* Preview Assets.xcassets */; };
 		443D069D236B0177009875D7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 443D069B236B0177009875D7 /* LaunchScreen.storyboard */; };
 		443D06A6236B0301009875D7 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 443D06A5236B0301009875D7 /* README.md */; };
+		443D06A8236B05BB009875D7 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 443D06A7236B05BB009875D7 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		443D069C236B0177009875D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443D069E236B0177009875D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		443D06A5236B0301009875D7 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		443D06A7236B05BB009875D7 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		443D0684236B0176009875D7 = {
 			isa = PBXGroup;
 			children = (
+				443D06A7236B05BB009875D7 /* .gitignore */,
 				443D06A5236B0301009875D7 /* README.md */,
 				443D068F236B0176009875D7 /* GuessTheFlag */,
 				443D068E236B0176009875D7 /* Products */,
@@ -136,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				443D06A8236B05BB009875D7 /* .gitignore in Resources */,
 				443D069D236B0177009875D7 /* LaunchScreen.storyboard in Resources */,
 				443D069A236B0177009875D7 /* Preview Assets.xcassets in Resources */,
 				443D06A6236B0301009875D7 /* README.md in Resources */,
