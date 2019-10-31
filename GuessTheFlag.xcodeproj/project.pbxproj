@@ -24,6 +24,7 @@
 		443D0699236B0177009875D7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		443D069C236B0177009875D7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		443D069E236B0177009875D7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		443D06A4236B01AA009875D7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +41,7 @@
 		443D0684236B0176009875D7 = {
 			isa = PBXGroup;
 			children = (
+				443D06A4236B01AA009875D7 /* README.md */,
 				443D068F236B0176009875D7 /* GuessTheFlag */,
 				443D068E236B0176009875D7 /* Products */,
 			);
