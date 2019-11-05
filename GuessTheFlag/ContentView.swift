@@ -65,7 +65,20 @@ struct UsingStacksToArrangeViews: View {
 
 struct ContentView: View{
     var body: some View{
-        UsingStacksToArrangeViews()
+        //UsingStacksToArrangeViews()
+        
+//        ZStack{
+//
+//            Color(red: 248 / 255, green: 196 / 255, blue: 113 / 255, opacity: 100)
+//
+//            Text("My content")
+//        }
+        
+        ZStack{
+            //Color(red: 248 / 255, green: 196 / 255, blue: 113 / 255, opacity: 100) //.frame(width:200, height: 200)
+            Color(red: 248 / 255, green: 196 / 255, blue: 113 / 255, opacity: 100).edgesIgnoringSafeArea(.all)
+            Text("Your Content")
+        }
     }
 }
 
